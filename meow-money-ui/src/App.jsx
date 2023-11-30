@@ -1,10 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { ToastContainer } from 'react-toastify';
+import Homepage from '../src/pages/Homepage';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>,
+    element: <Homepage/>,
     children: [
       {
         index: true,
